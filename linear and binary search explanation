@@ -1,0 +1,14 @@
+1. Linear Search (The "Sequential" Way)
+Linear search is the most straightforward approach. It works exactly like looking for a specific page in a book by flipping through every single page from the beginning until you find what you're looking for.
+•	How it works: It starts at the first element and compares it with the target value. If they don't match, it moves to the second, then the third, and so on.
+•	Requirement: None. The data can be in any order (shuffled or sorted).
+•	Best for: Small lists or unsorted data.
+
+2. Binary Search (The "Divide and Conquer" Way)
+Binary search is much faster, but it’s a bit more "picky"—it only works if your data is already sorted. Think of it like looking up a word in a physical dictionary; you don't start at 'A' and flip every page; you jump to the middle and narrow it down.
+•	How it works: 1. Check the middle element of the list.
+2. If the middle element is the target, you're done!
+3. If the target is smaller than the middle, ignore the right half and repeat the process on the left half.
+4. If the target is larger, ignore the left half and repeat on the right.
+•	Requirement: The list must be sorted.
+•	Best for: Large datasets where speed is critical.
